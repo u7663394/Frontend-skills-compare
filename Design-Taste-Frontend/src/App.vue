@@ -75,6 +75,7 @@ const toolGroups = [
 </script>
 
 <template>
+  <a class="skip-link" href="#content">Skip to content</a>
   <main class="page-shell">
     <header class="site-nav" aria-label="Primary navigation">
       <a class="brand-lockup" href="#top" aria-label="Guochen Wang homepage">
@@ -82,16 +83,17 @@ const toolGroups = [
         <span>Guochen Wang</span>
       </a>
       <nav>
+        <a href="#top" aria-current="page">Home</a>
         <a href="#work">Work</a>
         <a href="#focus">Focus</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <section id="top" class="hero-section">
+    <section id="top" class="hero-section" aria-labelledby="hero-title">
       <div class="hero-copy reveal">
         <p class="eyebrow">ANU Advanced Computing</p>
-        <h1>Frontend craft with machine learning curiosity.</h1>
+        <h1 id="hero-title">Frontend craft with machine learning curiosity.</h1>
         <p class="hero-lede">
           I build polished Vue and TypeScript interfaces while exploring applied computer vision.
         </p>
@@ -119,9 +121,9 @@ const toolGroups = [
       </div>
     </section>
 
-    <section id="focus" class="focus-section">
+    <section id="focus" class="focus-section" aria-labelledby="focus-title">
       <div class="section-intro reveal">
-        <h2>A practical mix of interface work and applied ML.</h2>
+        <h2 id="focus-title">A practical mix of interface work and applied ML.</h2>
         <p>
           The GitHub profile points to a clear direction: keep shipping frontend projects, study machine
           learning deeply, and connect both through image-analysis tools.
@@ -137,7 +139,7 @@ const toolGroups = [
       </div>
     </section>
 
-    <section class="leaf-section">
+    <section class="leaf-section" aria-labelledby="leaf-title">
       <div class="leaf-visual reveal">
         <img
           src="https://picsum.photos/seed/techlauncher-leaf-analyzer/1100/880"
@@ -146,7 +148,7 @@ const toolGroups = [
       </div>
       <div class="leaf-copy reveal delay-1">
         <PhLeaf :size="42" weight="duotone" aria-hidden="true" />
-        <h2>Contributing through TechLauncher LeafAnalyzer.</h2>
+        <h2 id="leaf-title">Contributing through TechLauncher LeafAnalyzer.</h2>
         <p>
           Guochen participates in current LeafAnalyzer projects, including pattern generation, AprilTag
           overlays, and curvature analysis.
@@ -158,9 +160,9 @@ const toolGroups = [
       </div>
     </section>
 
-    <section id="work" class="work-section">
+    <section id="work" class="work-section" aria-labelledby="work-title">
       <div class="section-intro reveal">
-        <h2>Selected repositories with a working theme.</h2>
+        <h2 id="work-title">Selected repositories with a working theme.</h2>
         <p>Frontend libraries, Vue applications, and computer vision experiments form the current portfolio spine.</p>
       </div>
 
@@ -182,10 +184,10 @@ const toolGroups = [
       </div>
     </section>
 
-    <section class="tool-section">
+    <section class="tool-section" aria-labelledby="tool-title">
       <div class="tool-copy reveal">
         <PhGraduationCap :size="38" weight="duotone" aria-hidden="true" />
-        <h2>Studying advanced computing with a machine learning specialisation.</h2>
+        <h2 id="tool-title">Studying advanced computing with a machine learning specialisation.</h2>
         <p>
           Academic work at ANU anchors the technical depth, while side projects keep the learning practical
           and visible.
