@@ -1,0 +1,26 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Leaf analysis workspace</title>
+  <desc id="desc">An abstract workstation with leaf analysis panels, code tracks, and machine learning checkpoints.</desc>
+  <rect width="1200" height="900" fill="#F6F3EC"/>
+  <rect x="70" y="72" width="1060" height="756" rx="28" fill="#FBFAF5" stroke="#D9D3C6" stroke-width="2"/>
+  <path d="M154 183H1046" stroke="#242721" stroke-width="2"/>
+  <circle cx="138" cy="132" r="14" fill="#B9713B"/>
+  <circle cx="184" cy="132" r="14" fill="#C79E34"/>
+  <circle cx="230" cy="132" r="14" fill="#628D6E"/>
+  <rect x="146" y="240" width="430" height="514" rx="18" fill="#EEF2E8" stroke="#CDD9C5" stroke-width="2"/>
+  <rect x="622" y="240" width="430" height="238" rx="18" fill="#EAF1F3" stroke="#C8D8DE" stroke-width="2"/>
+  <rect x="622" y="516" width="430" height="238" rx="18" fill="#F7EBD7" stroke="#DDC99F" stroke-width="2"/>
+  <path d="M358 623C277 575 246 470 289 389C325 323 391 293 460 293C482 361 469 440 420 502C384 548 365 585 358 623Z" fill="#6E9B74"/>
+  <path d="M357 623C367 503 385 397 459 293" stroke="#2C4F39" stroke-width="8" stroke-linecap="round"/>
+  <path d="M338 498C381 489 414 467 441 434" stroke="#2C4F39" stroke-width="5" stroke-linecap="round"/>
+  <path d="M319 433C359 426 391 407 418 378" stroke="#2C4F39" stroke-width="5" stroke-linecap="round"/>
+  <path d="M688 306H984" stroke="#4F6F78" stroke-width="14" stroke-linecap="round"/>
+  <path d="M688 357H923" stroke="#83A6AF" stroke-width="14" stroke-linecap="round"/>
+  <path d="M688 408H1001" stroke="#B7CDD1" stroke-width="14" stroke-linecap="round"/>
+  <rect x="690" y="580" width="72" height="92" rx="10" fill="#BE7A43"/>
+  <rect x="790" y="612" width="72" height="60" rx="10" fill="#D0A247"/>
+  <rect x="890" y="548" width="72" height="124" rx="10" fill="#6F9E76"/>
+  <path d="M686 694H1000" stroke="#4D493F" stroke-width="8" stroke-linecap="round"/>
+  <path d="M183 209H1021" stroke="#E4DFD3" stroke-width="2" stroke-dasharray="8 16"/>
+  <path d="M183 789H1021" stroke="#E4DFD3" stroke-width="2" stroke-dasharray="8 16"/>
+</svg>
